@@ -37,11 +37,6 @@ structure:
     - utils/: Directory containing utility files.
     - package.json: Project dependencies and npm scripts.
 
-documentation:
-  links:
-    - Playwright Documentation: https://playwright.dev/docs/intro
-    - Node.js Installation: https://nodejs.org
-
 contact:
   maintainer:
     name: Santhosh Prabhu
