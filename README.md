@@ -41,3 +41,32 @@ contact:
   maintainer:
     name: Santhosh Prabhu
     email: santhoship@yahoo.com
+
+
+RESULTS:
+
+Running 3 tests using 1 worker
+[chromium] › TestCase1.spec.js:5:1 › Validate errors and successful form submission
+Navigation successful and title verified!
+Error messages displayed successfully!
+Errors cleared successfully after submission!
+Success message verified!
+
+[2/3] [chromium] › Testcase2.spec.js:6:1 › Navigate to Contact Page, Populate Fields, Click
+[chromium] › Testcase2.spec.js:6:1 › Navigate to Contact Page, Populate Fields, Click Submit, and Validate Success Message
+Navigation successful and title verified!
+Success message verified!
+
+[3/3] [chromium] › TestCase3.spec.js:4:1 › Buy Products, Verify Subtotal, Price, and Total 
+[chromium] › TestCase3.spec.js:4:1 › Buy Products, Verify Subtotal, Price, and Total in Cart
+Products added to cart successfully!
+Navigated to Cart page!
+Product prices are visible in the cart
+Verified quantities and their respective subtotals
+Verified subtotals
+Extracted total text: "Total: 116.9"
+Parsed total amount: 116.9
+Expected Total: $116.90, Actual Total: $116.9
+Subtotals matched total price
+  3 passed (9.1s)
+
